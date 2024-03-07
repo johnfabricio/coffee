@@ -3,48 +3,67 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-.container{
-    border: 1px solid blue;
-}
-.nav-header{
+.container-menu{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-right: 50px;
-    background-color: rgba(0, 0, 0, 0.853);
-    width: 100%;
+    border: 1px solid;
+    background-color: black;
+
 }
+
 .logo{
     display: flex;
     align-items: center;
 }
 .logo img{
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
 }
 .logo h1{
-    align-items: center;
-    color: #928830;
-    font-size: 25px;
+    color: #c7a416;
 }
-nav.menu{
-    
-}
-ul.opcao-menu{
+.menu{
+    list-style-type: none;
     display: flex;
     justify-content: space-between;
-    list-style-type: none;
-    gap: 80px;
-    padding: 20px;
+    border: 1px solid;
 }
-ul.opcao-menu a{
+.menu a{
     text-decoration: none;
-    color: #928830cd;
-    font-size: 17px;
-    margin-right: 12px;
+    margin:0 30px;
+    font-size: 18px;
+    color: #c7a416;
 }
-.opcao-menu a:hover{
-    color: #b7ad58;
+.menu a:hover{
+    color: #d5c684;
+}
+.c-menu{
+    margin-right: 10px;
+    display: flex;
+}
+.c-menu ion-icon{
+    color: #ffff;
+    margin-right: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.sessao-1{
+    background-image: url(img/coffe-corpo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+.txt-1{
+    margin-left: 15px;
+    margin-top: 5;
+    padding: 50px;
+}
+.txt-1 h1{
+    color: #8e7617;
+}
+.txt-1 h2{
+    color: #8e7617;
 }
 
