@@ -77,6 +77,21 @@
 .mobile-menu{
     display: none;
 }
+.options-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 200px;
+    gap: 12px;
+}
+.options-title{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.option{
+    border: 1px solid salmon;
+}
+
 
 @media screen and (max-width:750px){
     .nav-bar{
